@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Hustlers University Russian</title>
+</head>
+
+<body>
+
+    <header class="container">
+        <nav>
+            <ul>
+                <li>
+                    <img src="./img/logo.png" alt="Нет интернета!!!">
+                </li>
+                <li onclick="document.getElementById('burger_background').classList.add('active')">
+                    <svg width="62" height="42" viewBox="0 0 62 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="62" height="8" fill="#FFA000" />
+                        <rect y="17" width="62" height="8" fill="#FFA000" />
+                        <rect y="34" width="62" height="8" fill="#FFA000" />
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="burger_background" onclick="document.getElementById('burger_background').classList.remove('active')"
+        class="burger_background">
+        <div class="body_burger">
+            <div class="header_burger">
+                <svg onclick="document.getElementById('burger_background').classList.remove('active')" width="40"
+                    height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.251221" y="44.0919" width="62" height="8" transform="rotate(-45 0.251221 44.0919)"
+                        fill="#FFA000" />
+                    <rect x="5.65674" width="62" height="8" transform="rotate(45 5.65674 0)" fill="#FFA000" />
+                </svg>
+            </div>
+            <div class="info_burger">
+                <nav>
+                    <ul>
+                        <li><a href="#second_section">О НАС</a></li>
+                        <li><a href="#third_section">ОТЗЫВЫ</a></li>
+                        <li><a href="#four_section">КУРСЫ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section class="first_section">
+        <div class="container main_text">
+            <div></div>
+            <div>
+                <h1>Hustlers University</h1>
+                <h2>Выходи за грани своих финансовых возможностей</h2>
+                <a href="https://t.me/gromov_tate_in_russian">Принять участие</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="second_section" class="second_section">
+        <div class="container main_text">
+            <div>
+                <h3>Что такое “Hustlers University на Русском”</h3>
+                <p>Русский перевод Влада Громова видеокурсов скандального миллионера и кикбоксёра Эндрю Тейта и его
+                    брата Тристана Тейта.</p>
+                <p> Эндрю знаменит своим острым языком, а также невероятным успехом у девушек. На этой странице ты
+                    узнаешь всё о русском
+                    переводе его видеокурсов.</p>
+            </div>
+            <div>
+                <iframe src="https://www.youtube.com/embed/IOmOB5AL48A" title="YouTube video player" frameborder="0"
+                    loading="lazy" id="myIframe1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="third_section" class="third_section">
+        <h4>ОТЗЫВЫ</h4>
+
+        <!-- Swiper -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/phone.png" alt="slide 1"></div>
+                <div class="swiper-slide"><img src="./img/phone.png" alt="slide 2"></div>
+                <div class="swiper-slide"><img src="./img/phone.png" alt="slide 3"></div>
+                <div class="swiper-slide"><img src="./img/phone.png" alt="slide 4"></div>
+                <div class="swiper-slide"><img src="./img/phone.png" alt="slide 5"></div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+        <a href="https://t.me/gromov_tate_in_russian">Больше в телеграм</a>
+    </section>
+
+    <section id="four_section" class="four_section">
+        <h5>У ВАС ЕСТЬ ДВА ВАРИАНТА</h5>
+
+        <div class="container">
+            <div class="first_container">
+                <div>
+                    <iframe width="673" height="408" src="https://www.youtube.com/embed/wknAB5Du5C0"
+                        title="YouTube video player" frameborder="0" loading="lazy" id="myIframe2"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h6>
+                        <span>Х</span>астлерс <span>Ю</span>ниверсити: <br> <span>к</span>ак рубить бабло
+                    </h6>
+                    <p>В этом видеокурсе ты узнаешь всё что нужно знать для того чтобы вылезти из нищеты, и достигнуть
+                        высоких успехов,
+                        истинной финансовой независимости.</p>
+                    <ul>
+                        <li>Неограниченный доступ к телеграм каналу</li>
+                        <li>Полностью переведенный курс на русский язык</li>
+                    </ul>
+                    <a href="https://vladgromov.payform.ru/?invoice_id=4bd90ac5e18d22aa2981b1620198a61e&paylink=1">ПОЛУЧИТЬ
+                        ДОСТУП</a>
+                </div>
+            </div>
+            <div class="second_container">
+                <div>
+                    <iframe width="673" height="408" src="https://www.youtube.com/embed/IfiIU3aeNQY"
+                        title="YouTube video player" frameborder="0" loading="lazy" id="myIframe3"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h6>
+                        <span>Ш</span>куроведение: <span>к</span>ак <br> мутить с <span>д</span>евушками
+                    </h6>
+                    <p>Как найти себе девушку? Эндрю Тейт, известный ловелас, многожёнец, на пальцах объяснит суть
+                        женской логики, и как себя
+                        вести простому парню в сегодняшнем мире чтобы найти девушку.</p>
+                    <ul>
+                        <li>Неограниченный доступ к телеграм каналу</li>
+                        <li>Полностью переведенный курс на русский язык</li>
+                    </ul>
+                    <a href="https://vladgromov.payform.ru/?invoice_id=35692c6146e90ea5e3b07879697b2cba&paylink=1">ПОЛУЧИТЬ
+                        ДОСТУП</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="five_section">
+        <div class="container">
+            <h6>СТАНЬТЕ ЧАСТЬЮ</h6>
+            <h6>НАШЕЙ КОМАНДЫ</h6>
+            <img src="./img/logo.png" alt="Нет интернета">
+            <div class="social">
+                <div>
+                    <p>Подпишитесь на нас</p>
+                    <p>в социальных сетях:</p>
+                </div>
+                <div>
+                    <a href="https://t.me/gromov_tate_in_russian">
+                        <svg width="93" height="92" viewBox="0 0 93 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.975586" width="92.4403" height="90.4416" rx="9" fill="#34AADF" />
+                            <path
+                                d="M26.4523 43.8071C26.4523 43.8071 44.1434 36.3434 50.2789 33.7153C52.631 32.6642 60.6072 29.3001 60.6072 29.3001C60.6072 29.3001 64.2887 27.8285 63.9818 31.4026C63.8795 32.8744 63.0615 38.0253 62.2434 43.5968C61.0162 51.4811 59.6869 60.1011 59.6869 60.1011C59.6869 60.1011 59.4824 62.519 57.744 62.9394C56.0056 63.3599 53.1422 61.4678 52.631 61.0472C52.2218 60.7319 44.9614 56.0013 42.3027 53.6886C41.5868 53.0579 40.7688 51.7965 42.4048 50.3247C46.0863 46.8557 50.4834 42.5457 53.1422 39.8125C54.3694 38.551 55.5964 35.6076 50.4834 39.1817C43.223 44.3327 36.0648 49.1684 36.0648 49.1684C36.0648 49.1684 34.4286 50.2195 31.3608 49.2734C28.2929 48.3275 24.7138 47.0659 24.7138 47.0659C24.7138 47.0659 22.2597 45.4891 26.4523 43.8071Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@gromov_tate_in_russian/featured">
+                        <svg width="93" height="91" viewBox="0 0 93 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="92.4403" height="90.4416" rx="9" fill="#FF3000" />
+                            <path
+                                d="M71.5881 32.9837C70.9874 30.75 69.2105 28.9879 66.9497 28.384C62.862 27.3003 46.4609 27.3003 46.4609 27.3003C46.4609 27.3003 30.0682 27.3003 25.9721 28.384C23.7197 28.9797 21.9428 30.7417 21.3338 32.9837C20.2409 37.0373 20.2409 45.5003 20.2409 45.5003C20.2409 45.5003 20.2409 53.9633 21.3338 58.0169C21.9344 60.2506 23.7114 62.0127 25.9721 62.6166C30.0682 63.7003 46.4609 63.7003 46.4609 63.7003C46.4609 63.7003 62.862 63.7003 66.9497 62.6166C69.2022 62.0209 70.9791 60.2588 71.5881 58.0169C72.6809 53.9633 72.6809 45.5003 72.6809 45.5003C72.6809 45.5003 72.6809 37.0373 71.5881 32.9837Z"
+                                fill="white" />
+                            <path d="M41.2219 53.3015L54.845 45.5003L41.2219 37.6991V53.3015Z" fill="#FF3000" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>Индивидуальный предприниматель Гордеев В. В.</li>
+            <li>ИHH: 390266576077</li>
+            <li>OГPH: 323390000018855</li>
+            <li>Способ связи почта: vlad.gromov.2022@yandex.ru</li>
+            <li>Способ связи телеграм: @vlad_gromov_2022</li>
+        </ul>
+        <ul>
+            <li>Юридическая информация:</li>
+            <li><a href="oferta.docx">Оферта</a></li>
+            <li><a href="policy.docx">Политика конфиденциальности</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript">
+        var iframe1 = document.getElementById('myIframe1').src = iframe1.src;
+        iframe1.src = '';
+        document.onload = function () { iframe1.src = src; }
+        var iframe2 = document.getElementById('myIframe2').src = iframe2.src;
+        iframe2.src = '';
+        document.onload = function () { iframe2.src = src; }
+        var iframe3 = document.getElementById('myIframe3').src = iframe3.src;
+        iframe3.src = '';
+        document.onload = function () { iframe3.src = src; }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        console.log();
+        function burger() {
+
+        }
+    </script>
+</body>
+
+</html>
+<!-- <script>
+    document.getElementById("myIframe1").src = "https://www.youtube.com/embed/IOmOB5AL48A";
+    document.getElementById("myIframe2").src = "https://www.youtube.com/embed/wknAB5Du5C0";
+    document.getElementById("myIframe3").src = "https://www.youtube.com/embed/IfiIU3aeNQY";
+</script> -->
